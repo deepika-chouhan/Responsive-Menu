@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="./style.css">
+<style>
+
+</style>
+</head>
+<body>
+<div role="navigation" id="nav-main">
+    <ul id="main">
+        <li class="selected"><a href="#home">Home</a></li>
+        <li><a href="#company">Company</a></li>
+        <li><a href="#hiring">We're hiring</a></li>
+        <li><a href="#indiviual">Indiviual</a></li>
+        <li><a href="#products">Products</a></li>
+
+        <li class="more hidden" data-width="80">
+            <a href="#">
+                <div class="menuIcons">
+                    <div class="menuIcon"></div>
+                    <div class="menuIcon"></div>
+                    <div class="menuIcon"></div>
+                </div>
+                <span></span>
+            </a>
+            <ul id="moreElements"></ul>
+        </li>
+        <li class="addPage" onclick="handleAddPage()"><a href="#products">+ Add Page</a></li>
+    </ul>
+</div>
+<script src="./index.js"></script>
+
+</body>
+</html>
